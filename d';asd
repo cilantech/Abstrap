@@ -1,0 +1,23 @@
+[33mcommit c3f190412741eb46b267cbf042b9bfa09d73f573[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: cilantech <isazaherbin@gmail.com>
+Date:   Mon Jul 29 07:13:07 2024 -0500
+
+    feat: creacion de la herencia entre animal y perro
+
+[33mcommit 4b44cdc6180c8ae01ab3f35aa794e6cebdd69f61[m
+Author: cilantech <isazaherbin@gmail.com>
+Date:   Mon Jul 29 07:05:52 2024 -0500
+
+    feat: Mejora de clase animal volviendo propiedades y metodos protecte
+
+[33mcommit 831e44a87386947e141f61bda9528db66fdd5987[m
+Author: cilantech <isazaherbin@gmail.com>
+Date:   Mon Jul 29 07:01:23 2024 -0500
+
+    feat: creacion de primer metodo de animal
+
+[33mcommit 6a6ae5c7a62195b5493b2f55a86aa1b5af891aad[m
+Author: cilantech <isazaherbin@gmail.com>
+Date:   Mon Jul 29 06:58:48 2024 -0500
+
+    feat: creacion de clase animal

@@ -7,10 +7,10 @@ namespace Abstrap.Models;
 
 public abstract class Animal
 {
-    public int Id { get; set; }
+    public abstract int Id { get; set; }
 
-    public string Nombre { get; set; }
-    public string Especie { get; set; }
+    public abstract string Nombre { get; set; }
+    public abstract string Especie { get; set; }
 
     public Animal(int id, string nombre, string especie)
     {
