@@ -12,7 +12,7 @@ public class Animal
     protected string Nombre { get; set; }
     protected string Especie { get; set; }
 
-    protected Animal(int id, string nombre, string especie)
+    public Animal(int id, string nombre, string especie)
     {
         Id = id;
         Nombre = nombre;
