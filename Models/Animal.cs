@@ -5,12 +5,12 @@ using System.Threading.Tasks;
 
 namespace Abstrap.Models;
 
-public class Animal
+public abstract class Animal
 {
-    protected int Id { get; set; }
+    public int Id { get; set; }
 
-    protected string Nombre { get; set; }
-    protected string Especie { get; set; }
+    public string Nombre { get; set; }
+    public string Especie { get; set; }
 
     public Animal(int id, string nombre, string especie)
     {
@@ -19,7 +19,7 @@ public class Animal
         Especie = especie;
     }
 
-    protected void saludar(){
-        Console.WriteLine($"Hola, soy {Nombre}");    }
+    public abstract void saludar();
+    
 
 }

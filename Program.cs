@@ -1,5 +1,8 @@
 ﻿using Abstrap.Models;
+//usando clase padre
+//var objetoPadre = new Animal(1, "Dogpoll", "perro");
 
-var primerAnimal = new Animal(1,"Dogpoll","perro");
-Console.WriteLine(primerAnimal);
+
+//usando clase hija
+var obejtoHijo = new Perro(2, "firula", "canino", false);
 
