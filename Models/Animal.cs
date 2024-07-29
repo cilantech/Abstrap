@@ -19,4 +19,7 @@ public class Animal
         Especie = especie;
     }
 
+    public void saludar(){
+        Console.WriteLine($"Hola, soy {Nombre}");    }
+
 }
